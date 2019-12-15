@@ -1,7 +1,9 @@
-parameter_file: parameters_Fujita_SciSignal2010.tsv
-petab_version: 0.0.0a17
-problems:
-- condition_file: experimentalCondition_Fujita_SciSignal2010.tsv
-  measurement_files:
-  - measurementData_Fujita_SciSignal2010.tsv
-  sbml_file: model_Fujita_SciSignal2010.xml
+- !!python/tuple
+  - Fujita_SciSignal2010.yaml
+  - parameter_file: parameters_Fujita_SciSignal2010.tsv
+    petab_version: 0.0.0a17
+    problems:
+    - condition_file: experimentalCondition_Fujita_SciSignal2010.tsv
+      measurement_files:
+      - measurementData_Fujita_SciSignal2010.tsv
+      sbml_file: model_Fujita_SciSignal2010.xml

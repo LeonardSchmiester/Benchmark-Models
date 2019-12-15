@@ -1,7 +1,9 @@
-parameter_file: parameters_Hass_PONE2017.tsv
-petab_version: 0.0.0a17
-problems:
-- condition_file: experimentalCondition_Hass_PONE2017.tsv
-  measurement_files:
-  - measurementData_Hass_PONE2017.tsv
-  sbml_file: model_Hass_PONE2017.xml
+- !!python/tuple
+  - Hass_PONE2017.yaml
+  - parameter_file: parameters_Hass_PONE2017.tsv
+    petab_version: 0.0.0a17
+    problems:
+    - condition_file: experimentalCondition_Hass_PONE2017.tsv
+      measurement_files:
+      - measurementData_Hass_PONE2017.tsv
+      sbml_file: model_Hass_PONE2017.xml

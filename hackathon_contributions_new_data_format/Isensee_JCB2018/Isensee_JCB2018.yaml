@@ -1,7 +1,9 @@
-parameter_file: parameters_Isensee_JCB2018.tsv
-petab_version: 0.0.0a17
-problems:
-- condition_file: experimentalCondition_Isensee_JCB2018.tsv
-  measurement_files:
-  - measurementData_Isensee_JCB2018.tsv
-  sbml_file: model_Isensee_JCB2018.xml
+- !!python/tuple
+  - Isensee_JCB2018.yaml
+  - parameter_file: parameters_Isensee_JCB2018.tsv
+    petab_version: 0.0.0a17
+    problems:
+    - condition_file: experimentalCondition_Isensee_JCB2018.tsv
+      measurement_files:
+      - measurementData_Isensee_JCB2018.tsv
+      sbml_file: model_Isensee_JCB2018.xml

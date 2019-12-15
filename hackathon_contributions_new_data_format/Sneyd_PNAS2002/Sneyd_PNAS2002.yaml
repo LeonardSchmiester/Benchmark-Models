@@ -1,7 +1,9 @@
-parameter_file: parameters_Sneyd_PNAS2002.tsv
-petab_version: 0.0.0a17
-problems:
-- condition_file: experimentalCondition_Sneyd_PNAS2002.tsv
-  measurement_files:
-  - measurementData_Sneyd_PNAS2002.tsv
-  sbml_file: model_Sneyd_PNAS2002.xml
+- !!python/tuple
+  - Sneyd_PNAS2002.yaml
+  - parameter_file: parameters_Sneyd_PNAS2002.tsv
+    petab_version: 0.0.0a17
+    problems:
+    - condition_file: experimentalCondition_Sneyd_PNAS2002.tsv
+      measurement_files:
+      - measurementData_Sneyd_PNAS2002.tsv
+      sbml_file: model_Sneyd_PNAS2002.xml
