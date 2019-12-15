@@ -1,0 +1,7 @@
+parameter_file: parameters_Casaletto_PNAS2019.tsv
+petab_version: 0.0.0a17
+problems:
+- condition_file: experimentalCondition_Casaletto_PNAS2019.tsv
+  measurement_files:
+  - measurementData_Casaletto_PNAS2019.tsv
+  sbml_file: model_Casaletto_PNAS2019.xml

@@ -1,0 +1,7 @@
+parameter_file: parameters_Chen_MSB2009.tsv
+petab_version: 0.0.0a17
+problems:
+- condition_file: experimentalCondition_Chen_MSB2009.tsv
+  measurement_files:
+  - measurementData_Chen_MSB2009.tsv
+  sbml_file: model_Chen_MSB2009.xml

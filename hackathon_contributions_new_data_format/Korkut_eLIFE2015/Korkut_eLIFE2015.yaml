@@ -1,0 +1,7 @@
+parameter_file: parameters_Korkut_eLIFE2015.tsv
+petab_version: 0.0.0a17
+problems:
+- condition_file: experimentalCondition_Korkut_eLIFE2015.tsv
+  measurement_files:
+  - measurementData_Korkut_eLIFE2015.tsv
+  sbml_file: model_Korkut_eLIFE2015.xml

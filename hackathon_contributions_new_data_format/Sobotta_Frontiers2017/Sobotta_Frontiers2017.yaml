@@ -1,0 +1,7 @@
+parameter_file: parameters_Sobotta_Frontiers2017.tsv
+petab_version: 0.0.0a17
+problems:
+- condition_file: experimentalCondition_Sobotta_Frontiers2017.tsv
+  measurement_files:
+  - measurementData_Sobotta_Frontiers2017.tsv
+  sbml_file: model_Sobotta_Frontiers2017.xml

@@ -1,0 +1,7 @@
+parameter_file: parameters_Elowitz_Nature2000.tsv
+petab_version: 0.0.0a17
+problems:
+- condition_file: experimentalCondition_Elowitz_Nature2000.tsv
+  measurement_files:
+  - measurementData_Elowitz_Nature2000.tsv
+  sbml_file: model_Elowitz_Nature2000.xml
