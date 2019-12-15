@@ -1,9 +1,7 @@
-- !!python/tuple
-  - Raia_CancerResearch2011.yaml
-  - parameter_file: parameters_Raia_CancerResearch2011.tsv
-    petab_version: 0.0.0a17
-    problems:
-    - condition_file: experimentalCondition_Raia_CancerResearch2011.tsv
-      measurement_files:
-      - measurementData_Raia_CancerResearch2011.tsv
-      sbml_file: model_Raia_CancerResearch2011.xml
+parameter_file: parameters_Raia_CancerResearch2011.tsv
+petab_version: 0.0.0a17
+problems:
+- condition_file: experimentalCondition_Raia_CancerResearch2011.tsv
+  measurement_files:
+  - measurementData_Raia_CancerResearch2011.tsv
+  sbml_file: model_Raia_CancerResearch2011.xml

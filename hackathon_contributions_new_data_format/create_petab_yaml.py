@@ -53,15 +53,13 @@ def create_petab_yaml(model_dir):
         print(f"# ERROR: {model_dir}: model missing")
         return
 
-
-
     for filename, config in data:
         petab.validate(config, wd=model_dir)
 
         out_file = os.path.join(model_dir, filename)
         print('git add ' + out_file)
         with open(out_file, 'w') as outfile:
-            yaml.dump(data, outfile, default_flow_style=False)
+            yaml.dump(config, outfile, default_flow_style=False)
 
 
 def main():

@@ -1,9 +1,7 @@
-- !!python/tuple
-  - Swameye_PNAS2003.yaml
-  - parameter_file: parameters_Swameye_PNAS2003.tsv
-    petab_version: 0.0.0a17
-    problems:
-    - condition_file: experimentalCondition_Swameye_PNAS2003.tsv
-      measurement_files:
-      - measurementData_Swameye_PNAS2003.tsv
-      sbml_file: model_Swameye_PNAS2003.xml
+parameter_file: parameters_Swameye_PNAS2003.tsv
+petab_version: 0.0.0a17
+problems:
+- condition_file: experimentalCondition_Swameye_PNAS2003.tsv
+  measurement_files:
+  - measurementData_Swameye_PNAS2003.tsv
+  sbml_file: model_Swameye_PNAS2003.xml
