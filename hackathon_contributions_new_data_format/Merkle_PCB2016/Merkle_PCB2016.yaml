@@ -1,7 +1,0 @@
-parameter_file: parameters_Merkle_PCB2016.tsv
-petab_version: 0.0.0a17
-problems:
-- condition_file: experimentalCondition_Merkle_PCB2016.tsv
-  measurement_files:
-  - measurementData_Merkle_PCB2016.tsv
-  sbml_file: model_Merkle_PCB2016.xml
