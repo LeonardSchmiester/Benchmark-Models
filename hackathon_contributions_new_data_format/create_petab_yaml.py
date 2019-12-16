@@ -16,10 +16,14 @@ def create_petab_yaml(model_dir):
             petab.get_default_parameter_file_name(model_dir),
         'problems': [
             {
-                'sbml_file':
-                    petab.get_default_sbml_file_name(model_dir),
-                'condition_file':
-                    petab.get_default_condition_file_name(model_dir),
+                'sbml_files':
+                    [
+                        petab.get_default_sbml_file_name(model_dir),
+                    ],
+                'condition_files':
+                    [
+                        petab.get_default_condition_file_name(model_dir),
+                    ],
                 'measurement_files':
                     [
                         petab.get_default_measurement_file_name(model_dir),
@@ -34,16 +38,16 @@ def create_petab_yaml(model_dir):
 
     if model_dir == 'Becker_Science2010':
         config['problems'].append(deepcopy(config['problems'][0]))
-        config['problems'][0]['sbml_file'] = \
-            'model_Becker_Science2010__BaF3_Exp.xml'
-        config['problems'][0]['condition_file'] = \
-            'experimentalCondition_Becker_Science2010__BaF3_Exp.tsv'
+        config['problems'][0]['sbml_files'] = [
+            'model_Becker_Science2010__BaF3_Exp.xml']
+        config['problems'][0]['condition_files'] = [
+            'experimentalCondition_Becker_Science2010__BaF3_Exp.tsv']
         config['problems'][0]['measurement_files'][0] = \
             'measurementData_Becker_Science2010__BaF3_Exp.tsv'
-        config['problems'][1]['sbml_file'] = \
-            'model_Becker_Science2010__binding.xml'
-        config['problems'][1]['condition_file'] = \
-            'experimentalCondition_Becker_Science2010__binding.tsv'
+        config['problems'][1]['sbml_files'] = [
+            'model_Becker_Science2010__binding.xml']
+        config['problems'][1]['condition_files'] = [
+            'experimentalCondition_Becker_Science2010__binding.tsv']
         config['problems'][1]['measurement_files'][0] = \
             'measurementData_Becker_Science2010__binding.tsv'
         # simulationData_Becker_Science2010__BaF3_Exp.tsv

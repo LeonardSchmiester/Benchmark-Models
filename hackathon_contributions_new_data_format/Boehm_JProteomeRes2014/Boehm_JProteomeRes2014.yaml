@@ -1,7 +1,9 @@
 parameter_file: parameters_Boehm_JProteomeRes2014.tsv
 petab_version: 0.0.0a17
 problems:
-- condition_file: experimentalCondition_Boehm_JProteomeRes2014.tsv
+- condition_files:
+  - experimentalCondition_Boehm_JProteomeRes2014.tsv
   measurement_files:
   - measurementData_Boehm_JProteomeRes2014.tsv
-  sbml_file: model_Boehm_JProteomeRes2014.xml
+  sbml_files:
+  - model_Boehm_JProteomeRes2014.xml
