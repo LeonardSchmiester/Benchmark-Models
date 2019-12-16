@@ -58,7 +58,7 @@ def create_petab_yaml(model_dir):
         return
 
     for filename, config in data:
-        petab.validate(config, wd=model_dir)
+        petab.validate(config, path_prefix=model_dir)
 
         out_file = os.path.join(model_dir, filename)
         print('git add ' + out_file)
