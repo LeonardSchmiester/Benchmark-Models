@@ -1,9 +1,9 @@
 observableId	observableName	observableFormula	noiseFormula	observableTransformation	noiseDistribution
-FeBM	observable_FeBM	PBM	noiseParameter1_FeBM	lin	normal
-FeGut	observable_FeGut	PDuo	noiseParameter1_FeGut	lin	normal
-FeLiver	observable_FeLiver	PLiver	noiseParameter1_FeLiver	lin	normal
-FeOut	observable_FeOut	POutside	noiseParameter1_FeOut	lin	normal
-FePlasma	observable_FePlasma	PPlasma	noiseParameter1_FePlasma	lin	normal
-FeRBC	observable_FeRBC	PRBC	noiseParameter1_FeRBC	lin	normal
-FeRest	observable_FeRest	PRest	noiseParameter1_FeRest	lin	normal
-FeSpleen	observable_FeSpleen	PSpleen	noiseParameter1_FeSpleen	lin	normal
+observable_FeBM	observable_FeBM	PBM	noiseParameter1_FeBM	lin	normal
+observable_FeGut	observable_FeGut	PDuo	noiseParameter1_FeGut	lin	normal
+observable_FeLiver	observable_FeLiver	PLiver	noiseParameter1_FeLiver	lin	normal
+observable_FeOut	observable_FeOut	POutside	noiseParameter1_FeOut	lin	normal
+observable_FePlasma	observable_FePlasma	PPlasma	noiseParameter1_FePlasma	lin	normal
+observable_FeRBC	observable_FeRBC	PRBC	noiseParameter1_FeRBC	lin	normal
+observable_FeRest	observable_FeRest	PRest	noiseParameter1_FeRest	lin	normal
+observable_FeSpleen	observable_FeSpleen	PSpleen	noiseParameter1_FeSpleen	lin	normal
