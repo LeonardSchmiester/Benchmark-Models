@@ -6,8 +6,8 @@ Compartment_3	Initial for Liver	log10			0.00117489755494	0
 Compartment_4	Initial for Plasma	log10			0.00129999999998	0
 Compartment_5	Initial for RestOfBody	log10			0.019694766000904	0
 Compartment_6	Initial for BoneMarrow	log10			0.00021379620895	0
-fDiet_iron-deficient	fDiet iron deficient	log10	1E-06	1	1.28824955169314E-06	1
-fDiet_iron-rich	fDiet iron rich	log10	2.99985318119079	10	3.11813000010083	1
+fDiet_iron_deficient	fDiet iron deficient	log10	1E-06	1	1.28824955169314E-06	1
+fDiet_iron_rich	fDiet iron rich	log10	2.99985318119079	10	3.11813000010083	1
 hEPO	hEPO	log10			6.49999999935859	0
 hEPOHepcidin	hEPOHepcidin	log10			3.99999999974246	0
 hNTBI	hNTBI	log10			1	0
